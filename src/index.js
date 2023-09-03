@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css'
 import Icon from './assets/img/facebook.png'
+import Data from './assets/data/data.xml'
 function component() {
     const element = document.createElement('div');
 
@@ -14,6 +15,7 @@ function component() {
 
     element.appendChild(myIcon)
 
+    console.log(Data);
 
     return element;
 }
